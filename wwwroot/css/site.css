@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+}
+
+
+#nav{
+    background: #F94E2F;
+    border: 1px solid red;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+#nav ul,#container{
+    width: 960px;
+    margin: 0 auto;
+}
+#nav li{
+    float:right;
+    list-style: none;
+    margin-right: 15px;
+}
+#nav a{
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+#nav a:hover{
+    background: rgba(255,255,255,0.3);
+}
+
+
+#container .title-1{
+    width:20%;
+}
+#container .title-2{
+    width: 70%;
+}
+/* 
+    Formatando as páginas de cadastro de lanches/igredientes
+*/
+#container h4{
+    font-weight: bold;
+}
+#container input{
+    text-indent: 10px;
+}
+.enviar{
+    margin-top: 20px;
+    display: block;
+}
