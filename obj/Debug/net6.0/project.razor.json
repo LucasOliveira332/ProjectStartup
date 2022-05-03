@@ -16298,11 +16298,6 @@
   "RootNamespace": "WebApplication1",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Lucas.DESKTOP-PURMIGN\\Documents\\ProjectStartup\\Projects\\WebApplication1\\Views\\Home\\lanches.cshtml",
-      "TargetPath": "Views\\Home\\lanches.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\Lucas.DESKTOP-PURMIGN\\Documents\\ProjectStartup\\Projects\\WebApplication1\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
