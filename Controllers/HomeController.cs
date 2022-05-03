@@ -17,19 +17,19 @@ namespace WebApplication1.Controllers
 
         public IActionResult Index(int? id)
         {
-            var item = new Igredientes();
-            if (id.HasValue)
-            {
-                if (Igredientes.Listagem.Any(u => u.Id == id)){
-                    item = Igredientes.Listagem.Single(u => u.Id == id);
-                }
-            }
-            return View("Index", item);
+            // var item = new Igredientes();
+            // if (id.HasValue)
+            // {
+            //     if (Igredientes.Listagem.Any(u => u.Id == id)){
+            //         item = Igredientes.Listagem.Single(u => u.Id == id);
+            //     }
+            // }
+            return View(Igredientes.Listagem);
         }
 
-        public IActionResult Resultado()
+        public IActionResult igredientes()
         {
-            return View("igredientes");
+            return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

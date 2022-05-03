@@ -1,6 +1,7 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿
+@model IQueryable<Adicionando.Models.Igredientes>
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
 <!doctype html>
 <html lang="en">
@@ -20,13 +21,13 @@
     <div id="nav">
       <ul>
         <li class="nav-item">
-          <a class="nav-link" href="Resultado">Adicionar Igredientes</a>
+          <a class="nav-link" href="/Home/igredientes">Adicionar Igredientes</a>
         </li>
         <li class="nav-item bg">
           <a class="nav-link" href="lanches.html">Adicionar lanche</a>
         </li>
         <li class="">
-          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="/Home/index">Home</a>
         </li>
       </ul>
       <div class="clear"></div>
@@ -39,7 +40,7 @@
             <th class="title-3">VALOR</th>  
           </tr>
           <tr>
-              <td>1</th>
+              <td></th>
               <td></td>
               <td></td>
           </tr>
@@ -47,16 +48,25 @@
       </table>
       <hr>
       <table class="table table-borderless">
+        <thead>
           <tr>
               <th class="title-1">#</th>
               <th class="title-2">IGREDIENTES</th>
               <th class="title-3">VALOR</th>  
           </tr>
-          <tr>
-              <td>@Model.Id</th>
-              <td>@Model.Nome</td>
-              <td>@Model.Price</td>
-          </tr>
+        </thead>
+        <tbody>
+        @foreach (var u in Model)
+        {
+            <tr>
+              <td>@u.Id</td>
+              <td>@u.Nome</td>
+              <td>@u.Price</td>
+              <td><a class="btn btn-secondary" asp-action="igredientes" asp-route-id="@u.Id">Alterar</a></td>
+              <td><a class="btn btn-danger">Excluir</a></td> 
+            </tr>
+        }
+        </tbody>
           <caption> Lista de Igredientes</caption>
       </table>
       <hr>
