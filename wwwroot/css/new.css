@@ -77,9 +77,16 @@ body{
     display: inline-block;
     border-radius: 5px;
     font-size: 0.9em;
+    font-weight: bold;
+}
+a:hover{
+    background: rgb(223, 222, 222);
 }
 #content a.red{
     background: red;
+}
+#content a.red:hover{
+    background: rgb(252, 65, 65);
 }
 
 

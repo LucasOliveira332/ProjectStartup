@@ -24,5 +24,22 @@ namespace Adicionando.Models
                 new Igredientes {Id = 2, Nome = "Tomate", Price = "R$200"}
             );
         }
+
+        public static void Salvar(Igredientes igrediente)
+        {
+            var igredienteExistente = Igredientes.listagem.Find(u => u.Id == igrediente.Id);
+            if (igredienteExistente != null)
+            {
+                igredienteExistente.Nome = igrediente.Nome;
+                igredienteExistente.Price = igrediente.Price;
+            }
+            else
+            {
+                var maiorId = Igredientes.Listagem.Max(u => u.Id);
+                igrediente.Id = maiorId + 1;
+                Igredientes.listagem.Add(igrediente);
+            }
+            
+        }
     }
 }

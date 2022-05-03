@@ -26,9 +26,9 @@
     </div>
     <div id="content">
         <h4>ADICIONAR IGREDIENTE</h4>
-        <form action="">
-          <input type="text" name="Name" id="Name" placeholder="Nome igrediente">
-          <input type="text" name="Price" id="Price" placeholder="R$ 00,00">
+        <form action="" method="POST">
+          <input type="text" name="Nome" id="Nome" value="@Model.Nome" placeholder="Nome igrediente">
+          <input type="text" name="Price" id="Price" value="@Model.Price" placeholder="R$ 00,00">
           <input type="submit" class="enviar" value="ADICIONAR ">
         </form>
     </div>
