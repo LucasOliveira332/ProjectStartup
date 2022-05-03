@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0lmpAk4vKnrP3UWMYnw3w7WB/4iH5TY1AxcRGN5MeHQ=",
+  "Hash": "8KJUfwZw98hXOJgYl2BV1q87EvveAp1NOgtyvg50z+U=",
   "Source": "WebApplication1",
   "BasePath": "_content/WebApplication1",
   "Mode": "Default",
@@ -51,12 +51,12 @@
       "OriginalItemSpec": "C:\\Users\\Lucas.DESKTOP-PURMIGN\\Documents\\ProjectStartup\\Projects\\WebApplication1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Lucas.DESKTOP-PURMIGN\\Documents\\ProjectStartup\\Projects\\WebApplication1\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Lucas.DESKTOP-PURMIGN\\Documents\\ProjectStartup\\Projects\\WebApplication1\\wwwroot\\css\\new.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Lucas.DESKTOP-PURMIGN\\Documents\\ProjectStartup\\Projects\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
-      "RelativePath": "css/site.css",
+      "RelativePath": "css/new.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -65,7 +65,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
+      "OriginalItemSpec": "wwwroot\\css\\new.css"
     },
     {
       "Identity": "C:\\Users\\Lucas.DESKTOP-PURMIGN\\Documents\\ProjectStartup\\Projects\\WebApplication1\\wwwroot\\favicon.ico",

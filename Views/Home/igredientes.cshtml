@@ -4,40 +4,34 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css">
     <!-- CSS -->
-    <link rel="stylesheet" href="/css/site.css">
-    <title>Hello, world!</title>
+    <link rel="stylesheet" href="/css/new.css">
+    <title>Cadastro-Igredientes!</title>
   </head>
   <body>
     <div id="nav">
       <ul>
         <li>
-          
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/Home/igredientes">Adicionar Igredientes</a>
+          <a href="/Home/igredientes">Adicionar Igredientes</a>
         </li>
         <li>
-          <a class="nav-link" href="lanches.html">Adicionar lanche</a>
+          <a href="/Home/lanches">Adicionar lanche</a>
         </li>
-        <li class="">
-          <a class="nav-link" href="/Home/index">Home</a>
+        <li>
+          <a href="/Home/index">Home</a>
         </li>
+        <div class="clear"></div>
       </ul>
-      <div class="clear"></div>
+      
     </div>
-    <div id="container">
+    <div id="content">
         <h4>ADICIONAR IGREDIENTE</h4>
-        <form method="POST">
-          <input type="text" name="Name" id="Name" placeholder="Nome igrediente" value="">
-          <input type="text" name="Price" id="Price" placeholder="R$ 00,00" value="">
-          <input type="submit" class="btn btn-danger item-add enviar" value="ADICIONAR">
+        <form action="">
+          <input type="text" name="Name" id="Name" placeholder="Nome igrediente">
+          <input type="text" name="Price" id="Price" placeholder="R$ 00,00">
+          <input type="submit" class="enviar" value="ADICIONAR ">
         </form>
     </div>
-        
   </body>
 </html>
 

@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+#nav{
+    background: #F94E2F;
+    border: 1px solid red;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+#nav ul,#content{
+    width: 1000px;
+    margin: 0 auto;
+}
+#nav ul{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+#nav li{
+    float:right;
+    list-style: none;
+    margin-right: 15px;
+}
+#nav a{
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+
+}
+#nav a:hover{
+    background: rgba(255,255,255,0.3);
+}
+
+#content table{
+    display: block;
+    font-size: 1.1em;
+    text-align: left;
+    border-collapse: collapse;
+    margin-bottom: 100px;
+    overflow: hidden;
+    
+}
+#content th{
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    color: orangered;
+}
+#content td,th{
+    padding-top: 20px;
+}
+.col-1{
+    width:40%;
+}
+.col-2{
+    width:50%;
+}
+.col-3{
+    width: 20%;
+}
+#content a{
+    text-decoration: none;
+    padding: 5px;
+    margin-right: 5px;
+    color: white;
+    background:silver;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+#content a.red{
+    background: red;
+}
+
+
+/* 
+    Formatando as páginas de cadastro de lanches/igredientes
+*/
+#content h4{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+#content input{
+    margin-top: 20px;
+    text-indent: 10px;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: rgb(184, 184, 184);
+}
+.enviar{
+    color: white;
+    margin-top: 20px;
+    display: block;
+    font-weight: bold;
+    background: #fc8211;
+    border-radius: 10px;
+    border: #FF8B1F;
+}
+.enviar:hover{
+    background: #ff9838;
+}
+
+
