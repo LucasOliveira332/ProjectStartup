@@ -15,12 +15,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Lucas.DESKTOP-PURMIGN\Documents\ProjectStartup\Projects\WebApplication1
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Lucas.DESKTOP-PURMIGN/Documents/ProjectStartup/Projects/WebApplication1/Views/Home/excluir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxleGNsdWlyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Lucas.DESKTOP-PURMIGN/Documents/ProjectStartup/Projects/WebApplication1/Views/Home/igredientes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxpZ3JlZGllbnRlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Lucas.DESKTOP-PURMIGN/Documents/ProjectStartup/Projects/WebApplication1/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lucas.DESKTOP-PURMIGN/Documents/ProjectStartup/Projects/WebApplication1/Views/Home/lanches.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxsYW5jaGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Lucas.DESKTOP-PURMIGN/Documents/ProjectStartup/Projects/WebApplication1/Views/Shared/Error.cshtml]

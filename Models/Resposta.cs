@@ -18,10 +18,13 @@ namespace Adicionando.Models
 
         static Igredientes(){
             Igredientes.listagem.Add(
-                new Igredientes {Id = 1, Nome = "Alface", Price = "R$100"}
+                new Igredientes {Id = 1, Nome = "Alface", Price = "R$ 0.40"}
             );
             Igredientes.listagem.Add(
-                new Igredientes {Id = 2, Nome = "Tomate", Price = "R$200"}
+                new Igredientes {Id = 2, Nome = "Bacon", Price = "R$ 2.00"}
+            );
+            Igredientes.listagem.Add(
+                new Igredientes {Id = 3, Nome = "Hambúrguer de carne", Price = "R$ 3.00"}
             );
         }
 
@@ -35,9 +38,20 @@ namespace Adicionando.Models
             }
             else
             {
-                var maiorId = Igredientes.Listagem.Max(u => u.Id);
+                int maiorId = Igredientes.Listagem.Max(u => u.Id);
                 igrediente.Id = maiorId + 1;
                 Igredientes.listagem.Add(igrediente);
+            }
+            
+            
+        }
+
+        public static void excluir(Igredientes igrediente)
+        {
+            var igredienteExistente = Igredientes.listagem.Find(u => u.Id == igrediente.Id);
+            if (igredienteExistente != null)
+            {
+                Igredientes.listagem.Remove(igredienteExistente);
             }
             
         }

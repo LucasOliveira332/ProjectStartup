@@ -56,7 +56,7 @@
               <td>@u.Nome</td>
               <td>@u.Price</td>
               <td><a asp-action="igredientes" asp-route-id="@u.Id">ALTERAR</a></td>
-              <td><a class="red" href="">EXCLUIR</a></td>
+              <td><a asp-action="excluir" class="red" asp-route-id="@u.Id">EXCLUIR</a></td>
             </tr>
         }
       </table>
