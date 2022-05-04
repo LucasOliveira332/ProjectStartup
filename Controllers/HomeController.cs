@@ -15,7 +15,7 @@ namespace WebApplication1.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index(int? id)
+        public IActionResult index(int? id)
         {
             return View(Igredientes.Listagem);
         }
